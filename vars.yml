@@ -1,0 +1,4 @@
+---
+# ACI Variables
+aci_username: '{{ lookup("env", "ANSIBLE_NET_USERNAME") }}'
+aci_password: '{{ lookup("env", "ANSIBLE_NET_PASSWORD") }}'
