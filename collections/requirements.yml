@@ -1,2 +1,2 @@
 collections:
-  - name: aci_tenant
+  - name: cisco.aci
