@@ -9,6 +9,6 @@
       username: "{{ aci_username }}"
       password: "{{ aci_password }}"
       validate_certs: no
-      tenant: "LABS-ACI-Routing{{ lab_number }}"
+      tenant: "{{ lab_name }}"
       state: absent
     delegate_to: localhost
